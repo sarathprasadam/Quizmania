@@ -348,6 +348,7 @@ class quizmania():
                                 count=1
                                 print("-----Topic-----")
                                 print("No     Email     Score    Percentage")
+                                print(section)
                                 for attentie in cls.quizattempties[section]:
                                     print(count,attentie[0],'     ',attentie[1],'     ',attentie[2])
 
